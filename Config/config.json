@@ -1,0 +1,20 @@
+{
+    "project_name": "InsightOps",
+    "version": "1.0",
+    "debug_mode": true,
+    "network_timeout": 30,
+    "max_retries": 5,
+    "server_host": "localhost",
+    "server_port": 8080,
+    "use_ssl": false,
+    "log_level": "DEBUG",
+    "log_file_path": "logs/insightops.log",
+    "encryption_key": "your_encryption_key",
+    "auth_token": "your_auth_token",
+    "ai_model_path": "ai/models",
+    "ai_model_name": "system_analysis_model",
+    "health_check_interval": 60,
+    "max_health_check_attempts": 3,
+    "iot_device_list": [],
+    "timezone": "UTC"
+}
